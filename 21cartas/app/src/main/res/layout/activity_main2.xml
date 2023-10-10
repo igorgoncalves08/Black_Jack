@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/images__1_"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/textViewMao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/sua_m_o"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textViewTotalPontos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/total_de_pontos_0"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+
+    <TextView
+        android:id="@+id/jogadorAtualTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/jogador_atual_jogador_1"
+        android:textAlignment="viewStart"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnComprar"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:text="@string/comprar_carta"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnParar"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="#FBF9F9"
+        android:text="@string/parar"
+        android:textColor="#FBF9F9"
+        android:textColorHighlight="#FBF9F9"
+        android:textColorHint="#FBF9F9"
+        android:textColorLink="#FBF9F9"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:rippleColor="#FBF9F9"
+        app:strokeColor="#FBF9F9" />
+
+    <TextView
+        android:id="@+id/resultadoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#FBF9F9"
+        android:text=""
+        android:textColor="#FBF9F9"
+        android:textColorHighlight="#FBF9F9"
+        android:textColorHint="#FBF9F9"
+        android:textColorLink="#FBF9F9"
+        android:textSize="18sp" />
+
+</LinearLayout>

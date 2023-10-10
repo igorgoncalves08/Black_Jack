@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">21 cartas</string>
+    <string name="total_de_pontos_0">Total de pontos: 0</string>
+    <string name="sua_m_o">Sua mão:</string>
+    <string name="jogador_atual_jogador_1">Jogador Atual: Jogador 1</string>
+    <string name="comprar_carta">Comprar Carta</string>
+    <string name="parar">Parar</string>
+    <string name="button">Button</string>
+</resources>
